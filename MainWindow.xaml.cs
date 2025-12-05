@@ -30,6 +30,7 @@ namespace TodoApp
                 {
                     Text = todoText,
                     Margin = new Thickness(10)
+
                 };
                 TodoList.Children.Add(todoItem);
                 TodoInput.Clear();
